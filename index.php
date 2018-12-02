@@ -10,9 +10,13 @@
 		<input type="submit" value="照会">
 	</form>
 	<br>
-	<p>
-	あああああ
-	</p>
+	<?php>
+		$nagaya = array(101,102,103,104,105,106);
+	<?>
+	<?php>
+		
+	<?>
+	
 <body>
 </body>
 </html>
