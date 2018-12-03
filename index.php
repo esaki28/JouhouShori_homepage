@@ -13,11 +13,17 @@
 	<?php>
 		$nagaya = array(101,102,103,104,105,106);
 	<?>
+	<br>
 	<?php>
+		$search_result = array_search($_GET["nbr"],$nagaya);
 		
-	<?>
-	
-	
+		if($search_result){
+			echo $val . "配達。" ;
+		}
+		else{
+			echo "そんな部屋はないです。" ;
+		}
+	<>
 	<p>
 	あああああ
 	アディスアベバ
